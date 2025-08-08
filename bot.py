@@ -3,9 +3,9 @@ from discord.ext import commands
 from discord import app_commands
 import os
 
-TOKEN = os.getenv("TOKEN")  # Token ustaw na Railway w zmiennych środowiskowych
-TICKET_CATEGORY_ID = 1402596525850492928
-ROLE_ZARZAD_ID = 1403084103468843169
+TOKEN = os.getenv("MTQwMzE3MTMwNTc3NTQzMTY5MA.G68iM4.Np_7WUOI4PgL-ROOit11_LGeHOpLYtS5DUH0HI")  # Token ustaw na Railway w zmiennych środowiskowych
+TICKET_CATEGORY_ID = 1403511981285314730
+ROLE_ZARZAD_ID = 1403174966819819674
 
 intents = discord.Intents.default()
 intents.message_content = True
